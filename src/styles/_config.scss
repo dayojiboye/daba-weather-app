@@ -23,6 +23,13 @@ body {
   color: var(--text-light);
 }
 
+#root {
+  width: 100%;
+  max-width: var(--wrapper-max-width);
+  min-width: var(--wrapper-min-width);
+  height: 100%;
+}
+
 h1,
 h2,
 h3,

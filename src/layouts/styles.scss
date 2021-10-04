@@ -1,0 +1,14 @@
+.layout {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 450px 1fr;
+
+  .main {
+    min-height: 100%;
+    overflow: auto;
+  }
+
+  @media (max-width: 903px) {
+  }
+}

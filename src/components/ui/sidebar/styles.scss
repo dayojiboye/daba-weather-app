@@ -1,0 +1,10 @@
+.sidebar {
+  background: var(--sidebar-bg);
+  height: 100%;
+  overflow: auto;
+
+  @media (max-width: 903px) {
+    height: auto;
+    min-height: 100%;
+  }
+}
