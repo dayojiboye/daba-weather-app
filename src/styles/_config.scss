@@ -25,8 +25,8 @@ body {
 
 #root {
   width: 100%;
-  max-width: var(--wrapper-max-width);
-  min-width: var(--wrapper-min-width);
+  // max-width: var(--wrapper-max-width);
+  // min-width: var(--wrapper-min-width);
   height: 100%;
 }
 
@@ -87,3 +87,6 @@ select {
 img {
   object-fit: cover;
 }
+
+// breakpoints
+// 903px, 400px
