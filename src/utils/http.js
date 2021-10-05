@@ -1,2 +1,2 @@
 export const baseUrl =
-  "https://api.allorigins.win/raw?url=https://www.metaweather.com/";
+  "https://tranquil-brook-69806.herokuapp.com/https://www.metaweather.com/";

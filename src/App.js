@@ -11,7 +11,6 @@ function App() {
     setMyLocation,
     myLocation,
     setWeatherData,
-    isLoading,
     setLoading,
     setUnit,
   } = useAppContext();
