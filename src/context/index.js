@@ -7,6 +7,8 @@ export const useAppContext = () => useContext(AppContext);
 const Context = ({ children }) => {
   const [isSidebarOpen, setSidebar] = useState(false);
 
+  const [unit, setUnit] = useState("C");
+
   // default location
   const [myLocation, setMyLocation] = useState({
     title: "Lagos",
@@ -24,6 +26,8 @@ const Context = ({ children }) => {
   return (
     <AppContext.Provider
       value={{
+        unit,
+        setUnit,
         availableLocations,
         setAvailableLocations,
         myLocation,

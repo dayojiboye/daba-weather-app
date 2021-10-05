@@ -7,8 +7,14 @@ import { useAppContext } from "./context";
 import Layout from "./layouts";
 
 function App() {
-  const { setMyLocation, myLocation, setWeatherData, isLoading, setLoading } =
-    useAppContext();
+  const {
+    setMyLocation,
+    myLocation,
+    setWeatherData,
+    isLoading,
+    setLoading,
+    setUnit,
+  } = useAppContext();
 
   useEffect(() => {
     let isSubscribed = true;
@@ -37,6 +43,10 @@ function App() {
         setLoading(false);
       }
     };
+
+    if (localStorage["weather-app-default-unit"]) {
+      setUnit(localStorage["weather-app-default-unit"]);
+    }
 
     if (isSubscribed) fetchWeather();
 

@@ -49,7 +49,6 @@ const LocationSearch = () => {
           <Result
             onClick={() => setLocationAndGetWeather(location)}
             title={location.title}
-            woeid={location.woeid}
             key={location.woeid}
           />
         ))}
