@@ -1,3 +1,4 @@
+/* eslint-disable array-callback-return */
 import WeatherCard from "../../ui/weatherCard";
 import { useAppContext } from "../../../context";
 

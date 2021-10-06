@@ -39,7 +39,7 @@
 
 ![screenshot](/screenshot/img.png?raw=true)
 
-- Where can I see your demo?
+<!-- - Where can I see your demo? -->
 
 It was a very challenging experience because I have built a weather app before but this is more complex and wider than what I previously built. The API had CORS issues but with some hours of research, I was able to use a third party api service that enables cross-origin requests to anywhere.
 
@@ -53,7 +53,6 @@ It was a very challenging experience because I have built a weather app before b
 
 <!-- List the features of your application or follow the template. Don't share the figma file here :) -->
 
-What features did you develop?
 Users can get to see weather details based on geo position provided by the metaweather api. They can also search for any location and get accurate weather results.
 
 The app also saves user's last selected location which will be the default location to display the weather for on next visit.
