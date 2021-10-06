@@ -10,7 +10,7 @@
   }
 
   .sidebar_header__search_btn {
-    width: 160px;
+    width: 161px;
     height: 40px;
     background: var(--grey);
     color: var(--text-light);
@@ -19,6 +19,7 @@
     box-shadow: var(--box-shadow);
     font-size: 1rem;
     font-weight: 500;
+    white-space: nowrap;
   }
 
   .sidebar_header__location_btn {
@@ -30,5 +31,8 @@
     color: var(--text-light);
     box-shadow: var(--box-shadow);
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
