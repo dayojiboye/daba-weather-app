@@ -12,7 +12,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://github.com/dayojiboye/daba-weather-app">
       Solution
     </a>
     <span> | </span>
@@ -37,12 +37,13 @@
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![screenshot](/screenshot/img.png?raw=true)
 
 Introduce your projects by taking a screenshot, video recordings or a gif. Try to tell us about the solution you built by answering the following:
 
 - Where can I see your demo?
 - What was your experience building it.
+It was a very challenging experience because I have built a weather app before but this is more complex and wider than what I previously built. The API had CORS issues but with some hours of research, I was able to use a third party api service that enables cross-origin requests to anywhere.
 
 ### Built With
 
@@ -55,7 +56,11 @@ Introduce your projects by taking a screenshot, video recordings or a gif. Try t
 <!-- List the features of your application or follow the template. Don't share the figma file here :) -->
 
 What features did you develop?
+Users can get to see weather details based on geo position provided by the metaweather api. They can also search for any location and get accurate weather results.
 
+The app also saves user's last selected location which will be the default location to display the weather for on next visit.
+
+User also gets to see weather of the present day and the next 5 days as well as being able to convert temperature in Celcius to Fahrenheit and vice versa.
 ## How To Use
 
 <!-- Example: -->
