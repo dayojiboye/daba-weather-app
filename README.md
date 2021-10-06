@@ -39,10 +39,8 @@
 
 ![screenshot](/screenshot/img.png?raw=true)
 
-Introduce your projects by taking a screenshot, video recordings or a gif. Try to tell us about the solution you built by answering the following:
-
 - Where can I see your demo?
-- What was your experience building it.
+
 It was a very challenging experience because I have built a weather app before but this is more complex and wider than what I previously built. The API had CORS issues but with some hours of research, I was able to use a third party api service that enables cross-origin requests to anywhere.
 
 ### Built With
