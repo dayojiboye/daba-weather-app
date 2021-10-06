@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://daba-weather-app.netlify.app/">
       Demo
     </a>
     <span> | </span>
@@ -40,8 +40,9 @@
 ![screenshot](/screenshot/img.png?raw=true)
 
 <!-- - Where can I see your demo? -->
+Demo - https://daba-weather-app.netlify.app/
 
-It was a very challenging experience because I have built a weather app before but this is more complex and wider than what I previously built. The API had CORS issues but with some hours of research, I was able to use a third party api service that enables cross-origin requests to anywhere.
+Experience - It was a very challenging experience because I have built a weather app before but this is more complex and wider than what I previously built. The API had CORS issues but with some hours of research, I was able to use a third party api service that enables cross-origin requests to anywhere.
 
 ### Built With
 
